@@ -10,7 +10,7 @@
     "orientation" : "portrait",
     "icons" : [
         {
-            "src" : "./img/asia.png" ,
+            "src" : "asia.png" ,
             "sizes" : "512x512",
             "type" : "image/png"
 
