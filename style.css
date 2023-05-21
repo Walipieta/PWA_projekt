@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url();
+    background-size:cover ;
+    background-position: 30% 0 ;
+
+
+}
+
+header h1 {
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+}
+
+.all_places{
+    padding: 20px;
+}
+.single_place{
+    margin: 10px 0;
+}
+.single_place img{
+
+    width: 100%;
+}
+
+footer{
+    padding: 20px;
+    background-color: darkblue;
+    color:white;
+    text-align: center;
+
+}
