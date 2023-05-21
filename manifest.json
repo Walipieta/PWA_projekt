@@ -1,0 +1,19 @@
+{
+    "theme_color" : "#417505" ,
+    "background_color" : "#417505",
+    "display" : "browser",
+    "scope" : "/",
+    "start_url" : "/PWA_projekt/",
+    "name" : "Przewodnik po Azji",
+    "short_name" : "guideAPP",
+    "description" : "Zaawansowane technologie internetowe projetk PWA",
+    "orientation" : "portrait",
+    "icons" : [
+        {
+            "src" : "./img/asia.png" ,
+            "sizes" : "512x512",
+            "type" : "image/png"
+
+        }
+    ]    
+    }
