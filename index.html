@@ -1,78 +1,92 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aplikacja PWA</title>
-    
-    
-    <link rel="manifest" href="manifest.json">
-    <meta name ="theme-color" content="#417505">
 
-
-
-
-</head>
-<body>
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#417505" />
+  </head>
+  <body>
     <header>
-        <div>
-            <h1>Przewodnik po Azji </h1>
-            <h2>Wyjedz z nami w podróż</h2>
-        </div>
-        <a href="#main"> Czytaj więcej</a>
-
+      <div>
+        <h1>Przewodnik po Azji</h1>
+        <h2>Wyjedź z nami w podróż</h2>
+      </div>
+      <a href="#main"> Czytaj więcej</a>
     </header>
     <main id="main">
-        <section class="all_places">
-            <h2>Miejsca warte odwiedzenia</h2>
-            <div class="places" >
+      <section class="all_places">
+        <h2>Miejsca warte odwiedzenia</h2>
+        <div class="places">
+          <div class="single_place">
+            <h3>Archipelag Bacuit - Palawan, Filipiny</h3>
+            <img src="archipelag.jpg" alt="" />
+            <p>
+              Archipelag Bacuit znajduje się na wyspie Palawan i jest jednym z
+              największych skarbów Azji, jeśli nie świata. Piaszczyste białe
+              plaże otoczonymi błękitnymi wodami, lasami kokosowymi, dziewicze
+              wyspy porośniętymi dżunglą, tętniące życiem rafy koralowe, urocze
+              zatoczki, jaskinie i sekretne laguny - wszystko to oferuje
+              Archipelag Bacuit. Bazą wypadową na archipelag jest El Nido, skąd
+              codziennie, wypływają bangki (tradycyjne filipińskie łodzie) na
+              tzw. island hopping, czyli pływanie od wyspy do wyspy.
+            </p>
+          </div>
 
-            <div class="single_place">
-                <h3>Nazwa miejsca</h3>
-                <img src="piesek.jpg" alt="">
-                <p>opis do miejsca</p>
-            </div>
+          <div class="single_place">
+            <h3>Zatoka Lan Ha - Wietnam</h3>
+            <img src="zatoka.jpg" alt="" />
+            <p>
+              Zatoka Lan Ha składa się z ponad 300 wysepek skalnych i 139 plaż.
+              Większość plaż znajduje się pomiędzy wysokimi wapiennymi górami,
+              dzięki czemu ma się poczucie odosobnienia gdzieś na jednej z setek
+              wysepek Morza Południowochińskiego. Zatoka jest spokojniejszym
+              miejscem niż zdecydowanie bardziej zatłoczona siostrzana zatoka Ha
+              Long. Zatokę Lan Ha można odkrywać jedynie łodzią. Oprócz
+              niesamowitych, naturalnych widoków znajdują się tam również
+              pływające wioski rybackie.
+            </p>
+          </div>
 
+          <div class="single_place">
+            <h3>Park Komodo - Indonezja</h3>
+            <img src="komodo.jpg" alt="" />
+            <p>
+              Park Komodo składa się z 3 dużych wysp: Komodo, Rinica i Padar,
+              oraz dziesiątek mniejszych wysepek. Ten iście niebiański rejon,
+              przypominający nieco Jurrasic Park, poszczycić się może pięknymi,
+              dziewiczymi plażami oraz jednymi z najlepszych na świecie warunków
+              do nurkowania. Można tutaj bez problemu spotkać olbrzymie manty.
+              Jest to również jedyne miejsce na ziemi, gdzie podziwiać można
+              żyjące na wolności smoki z Komodo, czyli największe jaszczurki
+              świata. Park można odkrywać jedynie łodzią.
+            </p>
+          </div>
 
-
-
-
-            <div class="single_place">
-                <h3>Nazwa miejsca</h3>
-                <img src="piesek.jpg" alt="">
-                <p>opis do miejsca</p>
-            </div>
-
-
-
-
-            <div class="single_place">
-                <h3>Nazwa miejsca</h3>
-                <img src="piesek.jpg" alt="">
-                <p>opis do miejsca</p>
-            </div>
-
-
-            
-
-            <div class="single_place">
-                <h3>Nazwa miejsca</h3>
-                <img src="piesek.jpg" alt="">
-                <p>opis do miejsca </p>
-            </div>
-            
-
-
-            </div>
-
-
-        </section>
-
+          <div class="single_place">
+            <h3>Wyspa Cebu - Filipiny</h3>
+            <img src="wyspacebu.jpg" alt="" />
+            <p>
+              Jeszcze do niedawna, turyści na Cebu przylatywali jedynie po to,
+              aby zanurkować z rekinem wielorybim w morzu. Obecnie, ciężko
+              powiedzieć co bardziej przyciąga turystów: rekiny czy bujna
+              dżungla i góry, które skrywają wiele niesamowitych wodospadów oraz
+              kanion w Badian, inaczej kanioning albo canyoneering. Jest to
+              naturalna atrakcja, która polega na pokonaniu kanionu. Na drodze
+              spotykasz liczne przeszkody, które pokonujesz w rozmaity sposób:
+              skaczesz z wodospadów, skaczesz ze skał, pływasz, maszerujesz,
+              moczysz się i brudzisz.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <p>Zaawansowane technologie internetowe - projekt WSB 2023</p>
+      <p>Zaawansowane technologie internetowe - projekt WSB 2023</p>
     </footer>
-    <script src ="sw.js"></script>
-</body>
+    <script src="sw.js"></script>
+  </body>
 </html>
